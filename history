@@ -1,0 +1,525 @@
+    1  rm -rf .mozilla/
+    2  ls
+    3  vim .config/user-dirs.dirs 
+    4  rm -rf .bash_history 
+    5  su -
+    6  systemctl --failed
+    7  journalctl  -xe
+    8  free -h
+    9  cat /etc/fstab 
+   10  blkid 
+   11  blkid  -f
+   12  lsblk -f
+   13  su -
+   14  ls
+   15  rm -rf PycharmProjects/
+   16  ls
+   17  ls -la
+   18  rm -rf .PyCharm40/
+   19  ls
+   20  systemctl --failed
+   21  journalctl  -u systemd-syctl
+   22  su -
+   23  python33
+   24  python3
+   25  reset
+   26  python
+   27  reset
+   28  ipython3
+   29  python3 first.py
+   30  quit() reset
+   31  exit()
+   32  ipython3 first.py
+   33  reset
+   34  ipython3 first.py
+   35  reset
+   36  ipython3 first.py
+   37  reset
+   38  ipython3 first.py
+   39  reset
+   40  ipython3 first.py
+   41  reset
+   42  ipython3 first.py
+   43  cat /etc/fstab 
+   44  reset
+   45  ipython3 first.py
+   46  reset
+   47  ipython3 first.py
+   48  reset
+   49  ipython3 first.py
+   50  reset
+   51  ipython3 first.py
+   52  reset
+   53  ipython3 first.py
+   54  reset
+   55  ipython3 first.py
+   56  reset
+   57  ipython3 first.py
+   58  reset
+   59  ipython3 second.py
+   60  reset
+   61  ipython3 first.py
+   62  reset
+   63  ipython3 first.py
+   64  reset
+   65  ipython3 first.py
+   66  reset
+   67  ipython3 first.py
+   68  reset
+   69  ipython3 first.py
+   70  reset
+   71  ipython3 first.py
+   72  fp
+   73  python3 upr1.py
+   74  python3 upr3.2.py
+   75  python3 upr3.3.py
+   76  python3 upr4.1.py
+   77  git clone https://github.com/egorrozinskiy/upr.git
+   78  cd upr3.1.py
+   79  ls
+   80  cd upr
+   81  ls
+   82  git status
+   83  git add
+   84  git add upr3.1.py
+   85  git add upr4.1
+   86  git add upr4.1.py
+   87  git push
+   88  git status
+   89  git commit
+   90  git push
+   91  git status
+   92  git config --global user.email "egor.rozinskiy@mail.ru"
+   93  git config --global user.name "egorrozinskiy"
+   94  git push
+   95  git config --global user.email "egor.rozinskiy@mail.ru"
+   96  git config --global user.name "egorrozinskiy"
+   97  git commit
+   98  export EDITOR=mcedit
+   99  git commit
+  100  git push
+  101  python3 upr4.2.py
+  102  python3 upr4.1.py
+  103  python3 upr4.2.py
+  104  python3 upr.4.2.py
+  105  ls
+  106  cd upr
+  107  python3 upr.4.2.py
+  108  python3 upr4.3.py
+  109  ls
+  110  cd upr
+  111  ls
+  112  python3 upr4.3
+  113  python3 upr4.3quit()
+  114  python3 upr4.3.py
+  115  cd upr
+  116  ls
+  117  upr4.3.py
+  118  ls
+  119  upr4.3
+  120  python3 upr4.3.py
+  121  python3 upr4.4.py
+  122  cd upr
+  123  ls
+  124  cd upr
+  125  ls
+  126  git add upr.4.2.py
+  127  git add upr4.3.py
+  128  git add upr4.4.py
+  129  git status
+  130  git push
+  131  git commit
+  132  git status
+  133  ls
+  134  cd upr
+  135  lss
+  136  ls
+  137  git status
+  138  export EDITOR=mcedit
+  139  git commit
+  140  git push
+  141  ls
+  142  export EDITOR=mcedit
+  143  git commit
+  144  git add upr5.1.py
+  145  git add upr5.2.py
+  146  git commit
+  147  git push
+  148  ls
+  149  git clone https://github.com/eazverkov/e.a.zverkov.git
+  150  ls
+  151  cd e.a.zverkov
+  152  ls
+  153  git status
+  154  git add ex1.py
+  155  git status
+  156  export EDITOR
+  157  export EDITOR=msedit
+  158  git commit
+  159  git commit gh
+  160  git commit
+  161  gfhfg
+  162  git commit sdfs
+  163  export EDITOR=mcedit
+  164  git commit
+  165  git push
+  166  python3 ab3
+  167  python3 ab3.py
+  168  python3 ab3.1.py
+  169  python3 ab3.2.py
+  170  python3 ab4.1.py
+  171  git status
+  172  git add ab3.1.py
+  173  git status
+  174  git add ab3.2.py
+  175  git add ab3.3.py
+  176  git status
+  177  git add ab4.1.py
+  178  git status
+  179  git commit
+  180  git push
+  181  python3 13.10.№5.py
+  182  python3 13.10.001
+  183  git commit[3~
+  184  python3 13.10.1
+  185  python3 13.10.001
+  186  python3 13.10.№2
+  187  python3 13.10.002
+  188  python3 13.10.№3
+  189  git clone https://github.com/eazverkov/Postroenie-graphikov.git
+  190  git add 13.10.№1
+  191  git commit
+  192  ls
+  193  cd Postroenie-graphikov
+  194  git add 13.10.№1.py
+  195  git add 13.10.№2.py
+  196  git add 13.10.№2.pyls
+  197  ls
+  198  git add 13.10.№1.py
+  199  git add 13.10.№2.1\.py
+  200  git add 13.10.№2.py
+  201  git add 13.10.№2.1.py
+  202  git status
+  203  export EDITOR-mcedit
+  204  export EDITOR=mcedit
+  205  git commit
+  206  git push
+  207  python3 13.10.№3
+  208  python3 13.10.№3.py
+  209  python3 13.10.№4.py
+  210  python3 13.10.№5.py
+  211  git clone https://github.com/EfimRyabushev/solar_project.git
+  212  python3 27.10.2015.1
+  213  python3 27.10.2015.1
+  214  python3 27.10.2015.1
+  215  python3 27.10.2015.3
+  216  python3 27.10.2015.3100
+  217  python3 27.10.2015.3
+  218  git clone https://github.com/eazverkov/arifmetika.git
+  219  cd arifmetika
+  220  ls
+  221  git add 27.10.2015.1.py  27.10.2015.2.py  27.10.2015.3.py
+  222  export EDITOR=mcedit
+  223  git commit\
+  224  ls
+  225  gid add 27.10.2015.1.py  27.10.2015.2.py  27.10.2015.3.py
+  226  git add 27.10.2015.1.py  27.10.2015.2.py  27.10.2015.3.py
+  227  export EDITOR=mcedit
+  228  git commit
+  229  git push
+  230  python3 27.10.2015.2
+  231  python3 27.10.2015.3
+  232  python3 3.11.2015.py
+  233  ls
+  234  python3 3.11.2015.py
+  235  ls
+  236  python3 3.11.2015.py
+  237  python3 3.11.2015.1.py
+  238  python3 3.11.2015.2.py
+  239  python3 3.11.2015.3.py
+  240  python3 3.11.2015.3.py]
+  241  python3 3.11.2015.3.py]\
+  242  python3 3.11.2015.3.py
+  243  git clone https://github.com/eazverkov/Lab-10.git
+  244  git clone https://github.com/eazverkov/Lab-10
+  245  git add 3.11.2015.1.py
+  246  git commit
+  247  ls
+  248  cd Lab-10
+  249  git add 3.11.2015.py
+  250  git add 3.11.2015.1.py
+  251  git clone https://github.com/eazverkov/Lab-10.git
+  252  git clone https://github.com/eazverkov/slovari.git
+  253  git add 3.11.2015.1.py
+  254  git add 3.11.2015.2.py
+  255  git add 3.11.2015.3.py
+  256  export EDITOR=mcedit
+  257  git comit
+  258  git commit
+  259  git push
+  260  python3 10.1
+  261  4
+  262  python3 main.py
+  263  git clone https://github.com/eazverkov/arithmetic_dragons
+  264  python3 main.py
+  265  cd arifmetic_dragons
+  266  cd arithmetic_dragons
+  267  python3 main.py
+  268   cd arithmetic_dragons
+  269  python3 main.py
+  270  git add enemies.py hero.py
+  271  git status
+  272  git add enemies.py gameunit.py hero.py
+  273  git status
+  274  export EDITOR=mcedit
+  275  git commit
+  276  git push
+  277  git status
+  278  git clone https://github.com/eazverkov/Lab-11.git
+  279  git commit
+  280  ls
+  281  cd Lab-11
+  282  git add 1
+  283  git add 1.py
+  284  git status
+  285  export EDITOR=mcedit
+  286  git commit
+  287  git push
+  288   git status
+  289  git clone https://github.com/eazverkov/Lab-13.git
+  290  git add matrix.py tests.py
+  291  git commit
+  292  ls
+  293  cd lab-13
+  294  git add matrix.py
+  295  tests.py
+  296  git add tests.py
+  297  git status
+  298  export EDITOR-mcedit
+  299  export EDITOR=mcedit
+  300  git commit
+  301  git push
+  302  git add matrix.py
+  303  ls
+  304  git push
+  305  ls
+  306  git add matrix.py  tests.py
+  307  matrix.py  tests.py
+  308  git add matrix.py
+  309  python 2.7 pacman.py
+  310  reboot
+  311  git clone https://github.com/ark0797/regexp.git
+  312  ping www.github.com
+  313  systemtl status auditd.service
+  314  systemctl status auditd.service
+  315  mc
+  316  exit
+  317  su
+  318  logout
+  319  su root
+  320  su 
+  321  exit
+  322  su root
+  323  logout
+  324  exit
+  325  wget -q http://opentrains.mipt.ru/vesta-3.4.0-1.x86_64.rpm
+  326  ls
+  327  su root
+  328  exit
+  329  su root
+  330  ping opentrains.mipt.ru
+  331  wget -q http://openyrains.mipt.ru.vesta-3.4.0-1.x86_64.rpm
+  332  ls
+  333  wget -q http://opentrains.mipt.ru.vesta-3.4.0-1.x86_64.rpm
+  334  ls
+  335  mc
+  336  exit
+  337  su root
+  338  ping ya.ru
+  339  ping 8.8.8.8
+  340  su root
+  341  pip
+  342  pip --help
+  343  help
+  344  history
+  345  ls
+  346  ping 8.8.8.8
+  347  ipconfig
+  348  ip
+  349  ip link
+  350  ip addr
+  351  ip ntable
+  352  man size
+  353  man find
+  354  cd pomelov_nick
+  355  gcc 1.c
+  356  gcc 1.c -o a
+  357  ls
+  358  ./a
+  359  ls -al
+  360  gcc 1.c -o a && ./a
+  361  man top
+  362  gcc 1.c -o a && ./a
+  363  dir
+  364  CD
+  365  cd
+  366  cd pomelov_nick
+  367  ls -al
+  368  top
+  369  ls
+  370  vim 1.c
+  371  gcc 1.c -o a && ./a
+  372  vim 1.c
+  373  man 2 sleep
+  374  man sleep
+  375  gcc 1.c -o a && ./a
+  376  history
+  377  gcc 1.c -o a && ./a
+  378  pwd
+  379  mkdir pomelov_nick
+  380  ls
+  381  cd pomelov_nick
+  382  ls
+  383  touch file
+  384  ls
+  385  ls -al
+  386  cd ..
+  387  cd -
+  388  cd .
+  389  stat file
+  390  ls
+  391  ln file file2
+  392  ls -al
+  393  stat file
+  394  stat file2
+  395  echo hello
+  396  echo "hello" >file
+  397  cat file
+  398  cat file2
+  399  echo "hello" >file3
+  400  ls
+  401  cat file3
+  402  history
+  403  echo "hello"
+  404  man echo
+  405  echo "hello" -n
+  406  man echo
+  407  echo -n  "hello"
+  408  man echo
+  409  grpe
+  410  grep
+  411  find
+  412  cd
+  413  pwd
+  414  man find
+  415  find -size
+  416  man find
+  417  find -size M
+  418  man find
+  419  find -size -M
+  420  find . +5M -printf "%bytes %b"
+  421  find . +5M -printf "%bytes %f"
+  422  find . +5M -printf 
+  423  find . +5M -printf %f
+  424  find . +5M -printf %k
+  425  find . +5M -printf '%k'
+  426  find . +5M -printf "%sbytes %f\n"
+  427  find . +500M -printf "%sbytes %f\n"
+  428  find . +5G -printf "%sbytes %f\n"
+  429  find . +5M -printf "%sbytes %f\n" | sort
+  430  find . +5M -printf "%sbytes, %f\n" | sort
+  431  find . -size +5M -printf "%sbytes, %f\n" | sort
+  432  find . -size +5M -printf "%sbytes, %f\n" | sort | grep -v git
+  433  find . -size +5M -printf "%sbytes, %f\n" | sort | grep -v org
+  434  find . -size +5M -printf "%sbytes, %f\n" | sort | grep -v test
+  435  history
+  436  pwd
+  437  history
+  438  stat file
+  439  cd pomelov_nick
+  440  stat file
+  441  cd
+  442  man sort
+  443  ls
+  444  cd pomelov_nick
+  445  ls -al
+  446  vim 1.c
+  447  top
+  448  ps axjf
+  449  ps axjf | less
+  450  man kill
+  451  ps axjf | less
+  452  man kill
+  453  man 7 
+  454  man 7 sig
+  455  vim 1.c
+  456  top
+  457  kill ./a
+  458  ps axjf | less
+  459  kill 7558
+  460  top
+  461  kill 9  7617
+  462  kill -9 7617
+  463  kill 7617
+  464  top
+  465  g++ 1.c -o a
+  466  ps axjf | less
+  467  top
+  468  ps axjf | less
+  469  kill 7829
+  470  kill 7830
+  471  kill 7896
+  472  kill 7897
+  473  kill 8000
+  474  kill 8001
+  475  kill 8026
+  476  vim 1.c
+  477  g++ -o hello hello.cpp
+  478  cd kocharovskaya
+  479  g++ -o hello hello.cpp
+  480  g++ -E -o hello1.cpp hello.cpp
+  481  g++ -c -o hello.o hello1.cpp
+  482  g++ -o hello hello.o
+  483  g++ -o hello hello.cpp
+  484  gedit hello.cpp
+  485  gedit hello
+  486  g++ -c -o hello.o hello1.cpp
+  487  g++ -o hello.exe hello.cpp
+  488  ./hello.exe
+  489  ls
+  490  g++ hello.cpp
+  491  ls
+  492  ./a.out
+  493  g++ -c mylib.cpp
+  494  g++ -c program.cpp
+  495  g++ -o program mylib.o program.o
+  496  ./progrm
+  497  ./program
+  498  make
+  499  make somethingnew
+  500  man signal
+  501  man gets
+  502  vim sender.c
+  503  cd
+  504  ls
+  505  mkdir tmp
+  506  cd tmp/
+  507  ls
+  508  cd
+  509  find -name rec
+  510  cd upr/
+  511  ls
+  512  cd ../file1/infra_653/
+  513  ls
+  514  cp sender.c ~/tmp/
+  515  cd ~/tmp/
+  516  git clone https://github.com/RoyalFlush7/RoyalFlushFlat.git
+  517  ls
+  518  mv sender.c RoyalFlushFlat/
+  519  cd RoyalFlushFlat/
+  520  ls
+  521  git add sender.c 
+  522  git commit -m "added sender"
+  523  git push
+  524  history 
+  525  history > history
