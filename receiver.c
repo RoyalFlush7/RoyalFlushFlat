@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-char c[100]
-int i
+char c[100];
+int i;
 void balash( int p )
 {
 	c[i]=1;
@@ -20,6 +20,7 @@ void sitnikov(int p)
 	kill(p,13);
 }
 int main(){
+	char a[100];
 	int p;
 	int h = 1 , g = 0, sum = 0, n ;
 	printf("%d\n", getpid());
@@ -27,7 +28,7 @@ int main(){
 	signal (12, balash);
 	signal (10, sitnikov);
 	n=strlen(c);
-	for (g = 0, g < n, g++)
+	for (g = 0; g < n; g++)
 	{
 		a[g]=c[ n - g ] * h;
 		h = h * 2;
