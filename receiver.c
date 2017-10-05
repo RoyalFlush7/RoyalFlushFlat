@@ -4,43 +4,58 @@
 #include <unistd.h>
 #include <string.h>
 char c[100];
-int i;
-void balash( int p )
+int i=0;
+int end;
+int p;
+int z=0;
+void balash(int signo)
 {
 	c[i]=1;
 	i++;
-	kill(p, 13);
-	
+	kill(p, 10);
+//	printf("1\n");
+	z++;
 }
 
-void sitnikov(int p)
+void sitnikov(int signo)
 {
 	c[i]=0;
 	i++;
-	kill(p,13);
+	kill(p,10);
+//	printf("0\n");	
+	z++;
+}
+void psurceva(int signo)
+{
+	end = 0;
 }
 int main(){
-	char a[100];
-	int p;
-	int h = 1 , g = 0, sum = 0, n ;
+	end=1;
+	int h = 128 , g = 0, sum = 0, n, k,l,b ;
 	printf("%d\n", getpid());
 	scanf("%d" , &p);
 	signal (12, balash);
 	signal (10, sitnikov);
-	n=strlen(c);
-	for (g = 0; g < n; g++)
-	{
-		a[g]=c[ n - g ] * h;
-		h = h * 2;
+	signal (13, psurceva);
+	printf ("I can\n");
+	while(end !=  0){ 
 	}
-	g = n;
-	while (g >= 0)
+	l=z/8;
+	k=0;
+	while(k<l)
 	{
-		sum= sum + a[g];
-		g--;
-	}
-	printf("%c", sum);
-        return 0;
+		h=128;
+		sum=0;
+		for (g = 0 ; g < 8; g++)
+		{
+			b=c[ g+k*8 ] * h;
+			h = h / 2;
+			sum=sum + b;
+		}
+		printf("%c", sum);
+		k++;
+	}        
+	return 0;
 }
 
 
