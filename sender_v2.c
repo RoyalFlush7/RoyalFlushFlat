@@ -1,3 +1,4 @@
+// davydov + smirnov = proga
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h> 
